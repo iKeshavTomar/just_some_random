@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For Sakshi ♡</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&amp;family=Lora:ital,wght@0,400;0,600;1,400;1,600&amp;family=Dancing+Script:wght@400;700&amp;display=swap" rel="stylesheet">
     <style>
         /* ===== CSS RESET ===== */
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -212,18 +210,6 @@
             transition: background 0.2s, transform 0.2s;
         }
         .chat-send-btn:hover { background: var(--deep-rose); transform: scale(1.05); }
-        .starter-chip {
-            padding: 6px 14px; border-radius: 20px;
-            background: rgba(232,120,138,0.1);
-            border: 1px solid rgba(232,120,138,0.25);
-            font-size: 12px; cursor: pointer;
-            transition: all 0.2s; white-space: nowrap;
-            font-family: 'Lora', serif; color: var(--warm-brown);
-        }
-        .starter-chip:hover {
-            background: rgba(232,120,138,0.2);
-            border-color: var(--rose);
-        }
 
         /* ===== STATS ===== */
         .stat-number {
@@ -274,10 +260,6 @@
             transition: opacity 0.7s ease, transform 0.7s ease;
         }
         .reveal-up.revealed { opacity: 1; transform: translateY(0); }
-
-        /* ===== API PANEL ===== */
-        .api-panel { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
-        .api-panel.open { max-height: 120px; }
 
         /* ===== LAYOUT UTILITIES ===== */
         .flex { display: flex; }
@@ -399,34 +381,28 @@
     <nav class="nav-dots" aria-label="Page navigation">
         <div class="nav-dot active" data-page="0" title="Entrance"></div>
         <div class="nav-dot" data-page="1" title="Reasons"></div>
-        <div class="nav-dot" data-page="2" title="Chat"></div>
+        <div class="nav-dot" data-page="2" title="Loha"></div>
         <div class="nav-dot" data-page="3" title="Numbers"></div>
         <div class="nav-dot" data-page="4" title="Letter"></div>
     </nav>
 
     <!-- ==================== PAGE 1: ENTRANCE ==================== -->
     <section id="page-entrance" class="page-section flex-col" style="background: linear-gradient(170deg, var(--cream) 0%, var(--blush) 50%, #fdd5d9 100%);">
-        <div id="petals-container" style="position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;pointer-events:none;z-index:1;"></div>
+        <div id="petals-container" style="position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;pointer-events:none;z-index:1;"><div class="petal" style="left: 44.5395%; width: 16.3515px; height: 16.3515px; background: rgb(249, 168, 184); animation-duration: 14.9104s; animation-delay: 9.1034s; --drift: 96.82634397845551px;"></div><div class="petal" style="left: 96.1063%; width: 16.0727px; height: 16.0727px; background: rgb(255, 182, 193); animation-duration: 11.6305s; animation-delay: 5.64569s; --drift: 2.4957151632494234px;"></div><div class="petal" style="left: 28.6704%; width: 8.07913px; height: 8.07913px; background: rgb(244, 143, 177); animation-duration: 15.3263s; animation-delay: 1.85144s; --drift: 56.93456313363754px;"></div><div class="petal" style="left: 33.3028%; width: 16.8543px; height: 16.8543px; background: rgb(249, 168, 184); animation-duration: 11.1056s; animation-delay: 3.31366s; --drift: 85.6405860093241px;"></div><div class="petal" style="left: 35.46%; width: 11.1652px; height: 11.1652px; background: rgb(236, 64, 122); animation-duration: 12.853s; animation-delay: 0.530585s; --drift: 7.971276156308638px;"></div><div class="petal" style="left: 97.7814%; width: 13.0131px; height: 13.0131px; background: rgb(244, 143, 177); animation-duration: 16.3721s; animation-delay: 5.15805s; --drift: 72.17472993048027px;"></div><div class="petal" style="left: 97.36%; width: 12.681px; height: 12.681px; background: rgb(244, 143, 177); animation-duration: 9.05326s; animation-delay: 3.47542s; --drift: 37.80601646549655px;"></div><div class="petal" style="left: 75.523%; width: 11.6386px; height: 11.6386px; background: rgb(244, 143, 177); animation-duration: 14.9755s; animation-delay: 3.22347s; --drift: 59.78130770091401px;"></div><div class="petal" style="left: 47.0197%; width: 13.7282px; height: 13.7282px; background: rgb(249, 168, 184); animation-duration: 13.3585s; animation-delay: 4.13235s; --drift: 41.470276282720285px;"></div><div class="petal" style="left: 37.2203%; width: 9.9572px; height: 9.9572px; background: rgb(249, 168, 184); animation-duration: 10.5987s; animation-delay: 2.13112s; --drift: 16.23544278961098px;"></div><div class="petal" style="left: 20.77%; width: 16.569px; height: 16.569px; background: rgb(249, 168, 184); animation-duration: 15.6741s; animation-delay: 5.25156s; --drift: 58.96010560366924px;"></div><div class="petal" style="left: 52.8295%; width: 8.4963px; height: 8.4963px; background: rgb(255, 182, 193); animation-duration: 13.2083s; animation-delay: 4.54822s; --drift: 81.45746309317936px;"></div><div class="petal" style="left: 58.0214%; width: 16.2016px; height: 16.2016px; background: rgb(236, 64, 122); animation-duration: 15.0078s; animation-delay: 2.96162s; --drift: 43.85900809908665px;"></div><div class="petal" style="left: 82.8448%; width: 16.0207px; height: 16.0207px; background: rgb(248, 187, 208); animation-duration: 10.1028s; animation-delay: 9.50175s; --drift: 0.38023061111780443px;"></div><div class="petal" style="left: 57.895%; width: 9.47241px; height: 9.47241px; background: rgb(248, 187, 208); animation-duration: 15.6926s; animation-delay: 2.79748s; --drift: -72.15791484913558px;"></div><div class="petal" style="left: 52.5227%; width: 17.0302px; height: 17.0302px; background: rgb(255, 182, 193); animation-duration: 10.1305s; animation-delay: 2.28282s; --drift: 66.70931221611676px;"></div><div class="petal" style="left: 78.9231%; width: 15.8163px; height: 15.8163px; background: rgb(248, 187, 208); animation-duration: 14.5892s; animation-delay: 8.49373s; --drift: 72.67227776930585px;"></div><div class="petal" style="left: 75.7978%; width: 17.3853px; height: 17.3853px; background: rgb(249, 168, 184); animation-duration: 15.1049s; animation-delay: 8.57921s; --drift: 44.37214415780113px;"></div><div class="petal" style="left: 7.70202%; width: 13.1133px; height: 13.1133px; background: rgb(244, 143, 177); animation-duration: 12.6217s; animation-delay: 7.42883s; --drift: 91.65744016825322px;"></div><div class="petal" style="left: 23.5719%; width: 12.9666px; height: 12.9666px; background: rgb(248, 187, 208); animation-duration: 9.58982s; animation-delay: 8.56338s; --drift: -95.2987025560131px;"></div><div class="petal" style="left: 92.1163%; width: 9.81341px; height: 9.81341px; background: rgb(236, 64, 122); animation-duration: 9.05345s; animation-delay: 1.17231s; --drift: 56.41118129625704px;"></div><div class="petal" style="left: 64.3099%; width: 16.632px; height: 16.632px; background: rgb(248, 187, 208); animation-duration: 9.05199s; animation-delay: 7.43248s; --drift: 88.90108346348933px;"></div><div class="petal" style="left: 46.3657%; width: 9.72704px; height: 9.72704px; background: rgb(255, 193, 204); animation-duration: 13.9534s; animation-delay: 4.2486s; --drift: 66.87385217812887px;"></div><div class="petal" style="left: 70.9834%; width: 8.29408px; height: 8.29408px; background: rgb(236, 64, 122); animation-duration: 11.9155s; animation-delay: 7.64953s; --drift: -23.18467429754538px;"></div><div class="petal" style="left: 64.6057%; width: 8.29111px; height: 8.29111px; background: rgb(255, 182, 193); animation-duration: 10.2806s; animation-delay: 6.71216s; --drift: 51.067602894209266px;"></div><div class="petal" style="left: 98.6032%; width: 12.9603px; height: 12.9603px; background: rgb(244, 143, 177); animation-duration: 10.9644s; animation-delay: 6.3666s; --drift: 20.250421502014284px;"></div><div class="petal" style="left: 62.6693%; width: 12.9048px; height: 12.9048px; background: rgb(249, 168, 184); animation-duration: 9.15956s; animation-delay: 8.65276s; --drift: 89.73288460084787px;"></div><div class="petal" style="left: 25.9598%; width: 17.631px; height: 17.631px; background: rgb(249, 168, 184); animation-duration: 13.0583s; animation-delay: 8.35022s; --drift: 32.92921743019448px;"></div><div class="petal" style="left: 61.7863%; width: 8.99822px; height: 8.99822px; background: rgb(249, 168, 184); animation-duration: 11.0947s; animation-delay: 0.353472s; --drift: -62.963215068924306px;"></div><div class="petal" style="left: 32.8302%; width: 13.7916px; height: 13.7916px; background: rgb(255, 182, 193); animation-duration: 11.2574s; animation-delay: 4.30187s; --drift: -43.393367784083246px;"></div><div class="petal" style="left: 99.5212%; width: 13.3839px; height: 13.3839px; background: rgb(255, 182, 193); animation-duration: 12.1153s; animation-delay: 0.237617s; --drift: -30.47170089121054px;"></div><div class="petal" style="left: 49.7844%; width: 9.4511px; height: 9.4511px; background: rgb(255, 193, 204); animation-duration: 13.9559s; animation-delay: 4.0456s; --drift: 98.0492862581537px;"></div><div class="petal" style="left: 12.0081%; width: 14.6607px; height: 14.6607px; background: rgb(248, 187, 208); animation-duration: 10.438s; animation-delay: 9.39698s; --drift: -48.16770536057524px;"></div><div class="petal" style="left: 55.7282%; width: 9.1915px; height: 9.1915px; background: rgb(249, 168, 184); animation-duration: 10.5109s; animation-delay: 9.55148s; --drift: 94.29116195493745px;"></div><div class="petal" style="left: 31.068%; width: 15.364px; height: 15.364px; background: rgb(249, 168, 184); animation-duration: 11.2361s; animation-delay: 5.4827s; --drift: 72.59765612411668px;"></div><div class="petal" style="left: 77.8704%; width: 11.2928px; height: 11.2928px; background: rgb(236, 64, 122); animation-duration: 9.32426s; animation-delay: 5.09317s; --drift: -20.585386940149398px;"></div><div class="petal" style="left: 8.68656%; width: 9.62875px; height: 9.62875px; background: rgb(255, 193, 204); animation-duration: 12.2056s; animation-delay: 7.70269s; --drift: -89.54481202297313px;"></div><div class="petal" style="left: 51.7249%; width: 11.5783px; height: 11.5783px; background: rgb(244, 143, 177); animation-duration: 15.5673s; animation-delay: 3.71763s; --drift: -95.48639518787596px;"></div><div class="petal" style="left: 16.3095%; width: 9.80961px; height: 9.80961px; background: rgb(255, 193, 204); animation-duration: 10.7421s; animation-delay: 0.223995s; --drift: -41.39250555571379px;"></div><div class="petal" style="left: 68.0581%; width: 13.8809px; height: 13.8809px; background: rgb(248, 187, 208); animation-duration: 9.39284s; animation-delay: 1.56038s; --drift: 42.57708836207033px;"></div><div class="petal" style="left: 27.7646%; width: 16.1685px; height: 16.1685px; background: rgb(255, 182, 193); animation-duration: 12.6003s; animation-delay: 9.64124s; --drift: -20.42745008986031px;"></div><div class="petal" style="left: 63.9946%; width: 15.9202px; height: 15.9202px; background: rgb(236, 64, 122); animation-duration: 10.0082s; animation-delay: 5.19414s; --drift: 3.074090181917133px;"></div><div class="petal" style="left: 17.9683%; width: 8.02491px; height: 8.02491px; background: rgb(244, 143, 177); animation-duration: 15.1673s; animation-delay: 3.50983s; --drift: 30.01789662560652px;"></div><div class="petal" style="left: 63.2407%; width: 11.0864px; height: 11.0864px; background: rgb(248, 187, 208); animation-duration: 13.2798s; animation-delay: 4.75493s; --drift: 47.86476417583159px;"></div><div class="petal" style="left: 43.1342%; width: 13.0182px; height: 13.0182px; background: rgb(244, 143, 177); animation-duration: 13.7911s; animation-delay: 5.14122s; --drift: -36.511217566483786px;"></div><div class="petal" style="left: 15.5201%; width: 8.4503px; height: 8.4503px; background: rgb(249, 168, 184); animation-duration: 12.5782s; animation-delay: 8.37762s; --drift: 81.14785245149902px;"></div><div class="petal" style="left: 61.7517%; width: 9.0624px; height: 9.0624px; background: rgb(244, 143, 177); animation-duration: 15.8945s; animation-delay: 2.0509s; --drift: 30.799982246905678px;"></div><div class="petal" style="left: 26.6315%; width: 14.3671px; height: 14.3671px; background: rgb(248, 187, 208); animation-duration: 14.1926s; animation-delay: 8.07642s; --drift: -45.81794970276063px;"></div><div class="petal" style="left: 42.9144%; width: 9.60332px; height: 9.60332px; background: rgb(255, 193, 204); animation-duration: 12.2901s; animation-delay: 3.60812s; --drift: -70.80777671532246px;"></div><div class="petal" style="left: 66.2233%; width: 14.1996px; height: 14.1996px; background: rgb(236, 64, 122); animation-duration: 11.5213s; animation-delay: 3.36006s; --drift: -77.95510495779041px;"></div><div class="petal" style="left: 25.7722%; width: 16.2167px; height: 16.2167px; background: rgb(236, 64, 122); animation-duration: 16.7989s; animation-delay: 9.03994s; --drift: 69.02957819667301px;"></div><div class="petal" style="left: 72.3657%; width: 13.2184px; height: 13.2184px; background: rgb(255, 182, 193); animation-duration: 11.0277s; animation-delay: 8.28043s; --drift: 27.499222292398073px;"></div><div class="petal" style="left: 5.6781%; width: 17.2913px; height: 17.2913px; background: rgb(248, 187, 208); animation-duration: 15.0743s; animation-delay: 9.32129s; --drift: 1.0778122118318967px;"></div><div class="petal" style="left: 10.5285%; width: 9.50623px; height: 9.50623px; background: rgb(249, 168, 184); animation-duration: 12.9843s; animation-delay: 5.71142s; --drift: -8.532424167508168px;"></div><div class="petal" style="left: 69.7979%; width: 9.20501px; height: 9.20501px; background: rgb(255, 193, 204); animation-duration: 15.9283s; animation-delay: 2.77579s; --drift: -7.524160876368979px;"></div><div class="petal" style="left: 39.2523%; width: 12.2766px; height: 12.2766px; background: rgb(255, 182, 193); animation-duration: 10.8793s; animation-delay: 1.83909s; --drift: 64.68356138737552px;"></div></div>
 
         <div class="relative text-center px-6" style="z-index:10;">
             <div style="margin-bottom:2rem;position:relative;display:inline-block;">
                 <div style="position:absolute;inset:-20px;border-radius:50%;background:radial-gradient(circle,rgba(232,120,138,0.2),transparent 70%);animation:gentleFloat 6s ease-in-out infinite;"></div>
-                <img src="https://z-cdn-media.chatglm.cn/files/622cc5dd-dda2-409f-81f3-67449570c51d.jpg?auth_key=1879010587-dca615a9e4ca48d991c2acd73423af8d-0-3f6c1cf801a75038bbac9c89c237cd70"
-                     alt="Our shadows"
-                     style="width:160px;height:160px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,0.6);box-shadow:0 8px 40px rgba(232,120,138,0.25);"
-                     loading="eager">
+                <img src="https://z-cdn-media.chatglm.cn/files/622cc5dd-dda2-409f-81f3-67449570c51d.jpg?auth_key=1879010587-dca615a9e4ca48d991c2acd73423af8d-0-3f6c1cf801a75038bbac9c89c237cd70" alt="Our shadows" style="width:160px;height:160px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,0.6);box-shadow:0 8px 40px rgba(232,120,138,0.25);" loading="eager">
             </div>
 
-            <h1 id="sakshi-name" style="font-family:'Playfair Display',serif;font-weight:900;letter-spacing:-0.025em;font-size:clamp(3.5rem,12vw,7rem);color:var(--deep-rose);line-height:1;"></h1>
+            <h1 id="sakshi-name" style="font-family:'Playfair Display',serif;font-weight:900;letter-spacing:-0.025em;font-size:clamp(3.5rem,12vw,7rem);color:var(--deep-rose);line-height:1;"><span class="name-letter" style="animation-delay: 0.3s;">S</span><span class="name-letter" style="animation-delay: 0.45s;">a</span><span class="name-letter" style="animation-delay: 0.6s;">k</span><span class="name-letter" style="animation-delay: 0.75s;">s</span><span class="name-letter" style="animation-delay: 0.9s;">h</span><span class="name-letter" style="animation-delay: 1.05s;">i</span></h1>
 
             <p style="font-family:'Dancing Script',cursive;margin-top:1rem;font-size:1.25rem;color:var(--rose);opacity:0;animation:letterReveal 0.8s ease 1.6s forwards;">
                 something for you
             </p>
 
-            <button id="enter-btn" onclick="document.getElementById('page-reasons').scrollIntoView({behavior:'smooth'})"
-                    style="margin-top:3rem;display:inline-flex;align-items:center;gap:0.5rem;padding:0.75rem 2rem;border-radius:9999px;font-family:'Lora',serif;font-size:0.875rem;letter-spacing:0.025em;background:var(--rose);color:white;box-shadow:0 4px 20px rgba(232,120,138,0.35);border:none;cursor:pointer;transition:transform 0.3s;opacity:0;animation:letterReveal 0.8s ease 2.2s forwards;"
-                    onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"
-                    aria-label="Open the website">
+            <button id="enter-btn" onclick="document.getElementById('page-reasons').scrollIntoView({behavior:'smooth'})" style="margin-top: 3rem; display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 2rem; border-radius: 9999px; font-family: Lora, serif; font-size: 0.875rem; letter-spacing: 0.025em; background: var(--rose); color: white; box-shadow: rgba(232, 120, 138, 0.35) 0px 4px 20px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; cursor: pointer; transition: transform 0.3s; opacity: 0; animation: 0.8s ease 2.2s 1 normal forwards running letterReveal; transform: scale(1);" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" aria-label="Open the website">
                 <i class="fas fa-heart" style="animation:heartPulse 1.5s ease-in-out infinite;"></i>
                 open
             </button>
@@ -441,36 +417,36 @@
     <section id="page-reasons" class="page-section flex-col py-20 px-6" style="background: linear-gradient(180deg, #fdd5d9 0%, var(--cream) 30%);">
         <div style="max-width:42rem;width:100%;position:relative;z-index:10;">
 
-            <h2 style="font-family:'Playfair Display',serif;font-weight:900;text-align:center;font-size:clamp(2rem,6vw,3.2rem);color:var(--warm-brown);" class="reveal-up">
+            <h2 style="font-family:'Playfair Display',serif;font-weight:900;text-align:center;font-size:clamp(2rem,6vw,3.2rem);color:var(--warm-brown);" class="reveal-up revealed">
                 Reasons I Love You
             </h2>
-            <div class="w-16 h-1 mx-auto reveal-up" style="margin-top:1rem;margin-bottom:3rem;background:var(--rose);border-radius:9999px;transition-delay:0.1s;"></div>
+            <div class="w-16 h-1 mx-auto reveal-up revealed" style="margin-top:1rem;margin-bottom:3rem;background:var(--rose);border-radius:9999px;transition-delay:0.1s;"></div>
 
             <div class="space-y-5">
-                <div class="reveal-up flex items-start gap-4 p-5" style="background:rgba(255,255,255,0.65);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(232,120,138,0.12);border-radius:1rem;transition-delay:0.15s;">
+                <div class="reveal-up flex items-start gap-4 p-5 revealed" style="background:rgba(255,255,255,0.65);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(232,120,138,0.12);border-radius:1rem;transition-delay:0.15s;">
                     <div class="flex-shrink-0" style="width:2.5rem;height:2.5rem;border-radius:9999px;display:flex;align-items:center;justify-content:center;color:white;font-size:0.875rem;background:var(--rose);">1</div>
                     <div>
-                        <p style="font-family:'Lora',serif;font-size:1rem;line-height:1.625;">The way your face scrunches up when I annoy you — honestly it's the best thing I've ever seen. I annoy you on purpose sometimes. Don't act surprised.</p>
+                        <p style="font-family:'Lora',serif;font-size:1rem;line-height:1.625;">The way your face scrunches up when I annoy you — honestly it's the best thing I've ever seen. I annoy you on purpose everytime. Don't act surprised.</p>
                     </div>
                 </div>
 
-                <div class="reveal-up flex items-start gap-4 p-5" style="background:rgba(255,255,255,0.65);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(232,120,138,0.12);border-radius:1rem;transition-delay:0.25s;">
+                <div class="reveal-up flex items-start gap-4 p-5 revealed" style="background:rgba(255,255,255,0.65);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(232,120,138,0.12);border-radius:1rem;transition-delay:0.25s;">
                     <div class="flex-shrink-0" style="width:2.5rem;height:2.5rem;border-radius:9999px;display:flex;align-items:center;justify-content:center;color:white;font-size:0.875rem;background:var(--rose);">2</div>
                     <div>
-                        <p style="font-family:'Lora',serif;font-size:1rem;line-height:1.625;">How you're kind to everyone, even when they don't deserve it. Especially when it's me. You have this patience that I honestly don't understand but I'm grateful for.</p>
+                        <p style="font-family:'Lora',serif;font-size:1rem;line-height:1.625;">How you hv loved me this far and how much you really care about me, to be honest I dont think so whether I deserved this love or not..... but either way, It feels masst.</p>
                     </div>
                 </div>
 
-                <div class="reveal-up flex items-start gap-4 p-5" style="background:rgba(255,255,255,0.65);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(232,120,138,0.12);border-radius:1rem;transition-delay:0.35s;">
+                <div class="reveal-up flex items-start gap-4 p-5 revealed" style="background:rgba(255,255,255,0.65);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(232,120,138,0.12);border-radius:1rem;transition-delay:0.35s;">
                     <div class="flex-shrink-0" style="width:2.5rem;height:2.5rem;border-radius:9999px;display:flex;align-items:center;justify-content:center;color:white;font-size:0.875rem;background:var(--rose);">3</div>
                     <div>
-                        <p style="font-family:'Lora',serif;font-size:1rem;line-height:1.625;">You make the ordinary feel like something worth remembering. A random walk, a silent bus ride, nothing special — and then somehow it is, because you're there.</p>
+                        <p style="font-family:'Lora',serif;font-size:1rem;line-height:1.625;">You dont know how much I long for meeting you, seeing you, listening to your voice and especially seein the look on your fae when you get annoyed....</p>
                     </div>
                 </div>
             </div>
 
             <!-- Flip card punchline -->
-            <div class="reveal-up" style="margin-top:2rem;transition-delay:0.5s;">
+            <div class="reveal-up revealed" style="margin-top:2rem;transition-delay:0.5s;">
                 <div id="punchline-card" class="flip-card" style="width:100%;" onclick="this.classList.toggle('flipped')" role="button" tabindex="0" aria-label="Tap to reveal">
                     <div class="flip-card-inner" style="min-height:100px;">
                         <div class="flip-card-front p-6" style="border-radius:1rem;text-align:center;background:linear-gradient(135deg,var(--rose),var(--deep-rose));color:white;min-height:100px;display:flex;align-items:center;justify-content:center;flex-direction:column;">
@@ -479,67 +455,48 @@
                         </div>
                         <div class="flip-card-back p-6" style="border-radius:1rem;text-align:center;background:linear-gradient(135deg,#1a1216,#2d1f25);color:white;min-height:100px;display:flex;align-items:center;justify-content:center;flex-direction:column;">
                             <p style="font-family:'Playfair Display',serif;font-weight:900;font-size:1.875rem;color:var(--soft-pink);">— I don't</p>
-                            <p id="punchline-sub" style="font-family:'Dancing Script',cursive;font-size:0.875rem;margin-top:0.75rem;opacity:0;transition:opacity 1s ease;color:rgba(255,255,255,0.6);">okay fine, i do. you know i do. 🙄</p>
+                            <p id="punchline-sub" style="font-family: 'Dancing Script', cursive; font-size: 0.875rem; margin-top: 0.75rem; opacity: 0; transition: opacity 1.5s ease 0.5s; color: rgba(255, 255, 255, 0.6);">okay fine, i do. you know i do. 🙄</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Photo below the flip card -->
-            <div class="reveal-up" style="margin-top:2.5rem;display:flex;justify-content:center;transition-delay:0.6s;">
+            <div class="reveal-up revealed" style="margin-top:2.5rem;display:flex;justify-content:center;transition-delay:0.6s;">
                 <div class="polaroid" style="transform:rotate(-3deg);--rot:-3deg;animation:gentleFloat 5s ease-in-out infinite;max-width:220px;">
-                    <img src="us_being_us.jpg"
-                         alt="Us being us" style="height:180px;" loading="lazy">
+                    <img src="https://z-cdn-media.chatglm.cn/files/aa4ea065-443d-46fc-b9fa-9cf5fd19cdec.png?auth_key=1879173314-f77a390c20e04cc996736518ddd9bc04-0-c51494a7a98f7dec98b4423aeb22f109" alt="Us being us" style="height:180px;" loading="lazy">
                     <p class="polaroid-caption">us being us</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ==================== PAGE 3: CHAT ==================== -->
+    <!-- ==================== PAGE 3: LOHA CHAT ==================== -->
     <section id="page-chat" class="page-section flex-col py-20 px-6" style="background: linear-gradient(180deg, var(--cream) 0%, #fef0f2 50%, var(--blush) 100%);">
         <div style="max-width:32rem;width:100%;position:relative;z-index:10;">
             <h2 class="reveal-up" style="font-family:'Playfair Display',serif;font-weight:900;text-align:center;font-size:clamp(1.8rem,5vw,2.5rem);color:var(--warm-brown);margin-bottom:0.5rem;">
-                Talk to Me
+                Talk to Loha
             </h2>
-            <p class="reveal-up" style="text-align:center;font-size:0.875rem;color:#aaa;margin-bottom:1.5rem;transition-delay:0.1s;">powered by Z.ai — our little assistant who knows too much</p>
+            <p class="reveal-up" style="text-align:center;font-size:0.875rem;color:#aaa;margin-bottom:1.5rem;transition-delay:0.1s;">a little conversation, just for you</p>
 
             <div class="chat-container reveal-up" style="transition-delay:0.2s;">
-                <div class="api-panel" id="api-panel">
-                    <div class="p-3 flex gap-2 items-center" style="background:rgba(232,120,138,0.06);border-bottom:1px solid rgba(232,120,138,0.1);">
-                        <input type="password" id="api-key-input" placeholder="Paste your Claude API key..."
-                               style="flex:1;padding:0.5rem 0.75rem;border-radius:0.5rem;font-size:0.75rem;border:1px solid rgba(232,120,138,0.2);background:white;outline:none;font-family:'Lora',serif;">
-                        <button onclick="saveApiKey()" style="padding:0.5rem 0.75rem;border-radius:0.5rem;font-size:0.75rem;font-weight:600;color:white;background:var(--rose);border:none;cursor:pointer;">Save</button>
-                    </div>
-                </div>
-
                 <div class="flex items-center gap-3 p-4" style="border-bottom:1px solid rgba(232,120,138,0.1);">
                     <div style="width:2.25rem;height:2.25rem;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--rose),var(--deep-rose));">
-                        <i class="fas fa-sparkles" style="color:white;font-size:0.75rem;"></i>
+                        <i class="fas fa-fire" style="color:white;font-size:0.85rem;"></i>
                     </div>
                     <div class="flex-1">
-                        <p style="font-family:'Playfair Display',serif;font-weight:700;font-size:0.875rem;">Z</p>
-                        <p style="font-size:0.75rem;color:#aaa;">knows your story</p>
+                        <p style="font-family:'Playfair Display',serif;font-weight:700;font-size:0.875rem;">Loha</p>
+                        <p style="font-size:0.75rem;color:#aaa;">always here for you</p>
                     </div>
-                    <button onclick="toggleApiPanel()" style="font-size:0.75rem;padding:0.25rem 0.5rem;border-radius:0.375rem;color:var(--rose);border:1px solid rgba(232,120,138,0.25);background:none;cursor:pointer;" title="API Key">
-                        <i class="fas fa-key"></i>
-                    </button>
                 </div>
 
-                <div class="chat-messages" id="chat-messages">
-                    <div class="msg-bubble msg-ai">Hey Sakshi! I'm Z — I live in this website and I know a thing or two about you two. Ask me anything, or just say hi.</div>
-                </div>
-
-                <div class="px-3 flex gap-2 overflow-x-auto" id="starter-chips" style="padding:0 0.75rem 0.5rem;scrollbar-width:none;">
-                    <button class="starter-chip" onclick="sendStarter(this)">Tell me about Keshav</button>
-                    <button class="starter-chip" onclick="sendStarter(this)">What's our story?</button>
-                    <button class="starter-chip" onclick="sendStarter(this)">Is he really that annoying?</button>
+                <div class="chat-messages" id="chatMessages">
+                    <!-- Messages will appear here -->
                 </div>
 
                 <div class="chat-input-area">
-                    <input type="text" id="chat-input" placeholder="Say something..."
-                           onkeydown="if(event.key==='Enter')sendMessage()">
-                    <button class="chat-send-btn" onclick="sendMessage()" aria-label="Send message">
+                    <input type="text" id="chatInput" placeholder="Say something..." onkeydown="if(event.key==='Enter')handleSend()">
+                    <button class="chat-send-btn" onclick="handleSend()" aria-label="Send message">
                         <i class="fas fa-paper-plane" style="font-size:0.875rem;"></i>
                     </button>
                 </div>
@@ -561,11 +518,11 @@
 
             <div class="grid grid-cols-2 grid-md-3 gap-4" style="margin-bottom:2.5rem;">
                 <div class="stat-card text-center reveal-up" style="transition-delay:0.2s;">
-                    <div class="stat-number" id="days-talked">0</div>
+                    <div class="stat-number" id="days-talked">264</div>
                     <div class="stat-label">days since our first "hey"<br><span style="font-family:'Dancing Script',cursive;color:var(--rose);font-size:11px;">Aug 27, 2025</span></div>
                 </div>
                 <div class="stat-card text-center reveal-up" style="transition-delay:0.25s;">
-                    <div class="stat-number" id="days-outing">0</div>
+                    <div class="stat-number" id="days-outing">229</div>
                     <div class="stat-label">days since first hangout<br><span style="font-family:'Dancing Script',cursive;color:var(--rose);font-size:11px;">Oct 1, 2025</span></div>
                 </div>
                 <div class="stat-card text-center reveal-up" style="transition-delay:0.3s;">
@@ -573,59 +530,51 @@
                     <div class="stat-label">arguments won by her</div>
                 </div>
                 <div class="stat-card text-center reveal-up" style="transition-delay:0.35s;">
-                    <div class="stat-number">&infin;</div>
+                    <div class="stat-number">∞</div>
                     <div class="stat-label">times you acted like a baby<br><span style="font-family:'Dancing Script',cursive;color:var(--gold);font-size:11px;">and counting</span></div>
                 </div>
                 <div class="stat-card text-center reveal-up" style="transition-delay:0.4s;">
-                    <div class="stat-number" style="font-size:1.2rem;line-height:1.3;">&infin;+1</div>
+                    <div class="stat-number" style="font-size:1.2rem;line-height:1.3;">∞+1</div>
                     <div class="stat-label">you said, <span style="font-style:italic;">"keshav kya dikkat hai..!"</span></div>
                 </div>
                 <div class="stat-card text-center reveal-up" style="transition-delay:0.45s;">
-                    <div class="stat-number" id="photos-count">8</div>
+                    <div class="stat-number" id="photos-count">108</div>
                     <div class="stat-label">photos together (so far)<br><span style="font-family:'Dancing Script',cursive;color:var(--rose);font-size:11px;">we should take more</span></div>
                 </div>
             </div>
 
             <div class="grid grid-cols-2 grid-md-4 gap-5">
                 <div class="polaroid reveal-up" style="transform:rotate(-2deg);--rot:-2deg;animation:gentleFloat 6s ease-in-out infinite;transition-delay:0.3s;">
-                    <img src="https://z-cdn-media.chatglm.cn/files/3da025f0-30bb-4e66-93c1-81807cd3cb3b.jpg?auth_key=1879010587-be20c6e9f373415cac9953cc36555c62-0-901b007d78e22d96baba7f114f62e338"
-                         alt="School days" style="height:150px;" loading="lazy">
+                    <img src="https://z-cdn-media.chatglm.cn/files/3da025f0-30bb-4e66-93c1-81807cd3cb3b.jpg?auth_key=1879010587-be20c6e9f373415cac9953cc36555c62-0-901b007d78e22d96baba7f114f62e338" alt="School days" style="height:150px;" loading="lazy">
                     <p class="polaroid-caption">where it all started</p>
                 </div>
                 <div class="polaroid reveal-up" style="transform:rotate(1.5deg);--rot:1.5deg;animation:gentleFloat 7s ease-in-out infinite 1s;transition-delay:0.4s;">
-                    <img src="https://z-cdn-media.chatglm.cn/files/3f451b00-03d2-4136-b3c3-036d60b07a25.jpg?auth_key=1879010587-69a2bfe4b5574c0098e237405b90008e-0-09a2c9df66545b13e2e2ee2c25bec90e"
-                         alt="All dressed up" style="height:150px;" loading="lazy">
+                    <img src="https://z-cdn-media.chatglm.cn/files/3f451b00-03d2-4136-b3c3-036d60b07a25.jpg?auth_key=1879010587-69a2bfe4b5574c0098e237405b90008e-0-09a2c9df66545b13e2e2ee2c25bec90e" alt="All dressed up" style="height:150px;" loading="lazy">
                     <p class="polaroid-caption">cleaning up nice (once)</p>
                 </div>
                 <div class="polaroid reveal-up" style="transform:rotate(-1deg);--rot:-1deg;animation:gentleFloat 5.5s ease-in-out infinite 0.5s;transition-delay:0.5s;">
-                    <img src="https://z-cdn-media.chatglm.cn/files/9ea4a57b-047c-47d9-890c-0741b8e0de00.jpg?auth_key=1879010587-918fdd07835e44fb8a88249226e2682a-0-21e323733d0c9375315acad243ab9398"
-                         alt="Us" style="height:150px;" loading="lazy">
+                    <img src="https://z-cdn-media.chatglm.cn/files/9ea4a57b-047c-47d9-890c-0741b8e0de00.jpg?auth_key=1879010587-918fdd07835e44fb8a88249226e2682a-0-21e323733d0c9375315acad243ab9398" alt="Us" style="height:150px;" loading="lazy">
                     <p class="polaroid-caption">don't you ever go</p>
                 </div>
                 <div class="polaroid reveal-up" style="transform:rotate(2deg);--rot:2deg;animation:gentleFloat 6.5s ease-in-out infinite 2s;transition-delay:0.6s;">
-                    <img src="https://z-cdn-media.chatglm.cn/files/aa7e4d74-d3d9-4188-adf9-2a0f831da419.jpg?auth_key=1879010587-2d7ab90a16844def837599a9b0a7615d-0-b761d36cd5e7a083067e41d7f3ce1569"
-                         alt="Sakshi" style="height:150px;" loading="lazy">
+                    <img src="https://z-cdn-media.chatglm.cn/files/aa7e4d74-d3d9-4188-adf9-2a0f831da419.jpg?auth_key=1879010587-2d7ab90a16844def837599a9b0a7615d-0-b761d36cd5e7a083067e41d7f3ce1569" alt="Sakshi" style="height:150px;" loading="lazy">
                     <p class="polaroid-caption">her, just existing</p>
                 </div>
                 <div class="polaroid reveal-up" style="transform:rotate(1deg);--rot:1deg;animation:gentleFloat 7s ease-in-out infinite 1.5s;transition-delay:0.7s;">
-                    <img src="https://z-cdn-media.chatglm.cn/files/622cc5dd-dda2-409f-81f3-67449570c51d.jpg?auth_key=1879010587-dca615a9e4ca48d991c2acd73423af8d-0-3f6c1cf801a75038bbac9c89c237cd70"
-                         alt="Our shadows" style="height:150px;" loading="lazy">
+                    <img src="https://z-cdn-media.chatglm.cn/files/622cc5dd-dda2-409f-81f3-67449570c51d.jpg?auth_key=1879010587-dca615a9e4ca48d991c2acd73423af8d-0-3f6c1cf801a75038bbac9c89c237cd70" alt="Our shadows" style="height:150px;" loading="lazy">
                     <p class="polaroid-caption">even our shadows stick together</p>
                 </div>
                 <div class="polaroid reveal-up" style="transform:rotate(-2.5deg);--rot:-2.5deg;animation:gentleFloat 6s ease-in-out infinite 0.8s;transition-delay:0.8s;">
-                    <img src="https://z-cdn-media.chatglm.cn/files/84947df5-9933-4dda-b868-974a7f1618e2.jpg?auth_key=1779011847-d377c587dcbb4926abf2089f67bf66f3-0-0b54eb9e53a001304ad42bde148a8183&response-content-disposition=attachment%3B+filename%3D%2284947df5-9933-4dda-b868-974a7f1618e2.jpg%22"
-                         alt="Mirror selfie" style="height:150px;" loading="lazy">
+                    <img src="https://z-cdn-media.chatglm.cn/files/62ec2b09-a2cf-4e9c-81ea-d3f4da2e389f.png?auth_key=1879173314-be6ad733ab7148b79c86e69c8e373daf-0-f90ea339d628ce6f304f6319db90539b" alt="Matching chaos" style="height:150px;" loading="lazy">
                     <p class="polaroid-caption">matching chaos</p>
                 </div>
                 <div class="polaroid reveal-up" style="transform:rotate(-0.5deg);--rot:-0.5deg;animation:gentleFloat 5s ease-in-out infinite 3s;transition-delay:0.9s;">
-                    <img src="https://z-cdn-media.chatglm.cn/files/01f8b5b1-789a-4fdd-9fa9-27ef5003f9d4.jpg?auth_key=1879010587-661cf4eb50ad4b0bb49d178d49e2e418-0-a994b67d93102b8d6726e3e2a2aca5f5"
-                         alt="Stealing hats" style="height:150px;" loading="lazy">
+                    <img src="https://z-cdn-media.chatglm.cn/files/01f8b5b1-789a-4fdd-9fa9-27ef5003f9d4.jpg?auth_key=1879010587-661cf4eb50ad4b0bb49d178d49e2e418-0-a994b67d93102b8d6726e3e2a2aca5f5" alt="Stealing hats" style="height:150px;" loading="lazy">
                     <p class="polaroid-caption">stealing my hats &amp; my peace</p>
                 </div>
                 <div class="polaroid reveal-up" style="transform:rotate(1.8deg);--rot:1.8deg;animation:gentleFloat 6.5s ease-in-out infinite 2.5s;transition-delay:1s;">
-                    <img src="https://z-cdn-media.chatglm.cn/files/9dfb0735-364b-47ec-96d1-442165691ae5.jpg?auth_key=1879010587-f1f1df4606184f8e9fbfa29aa2522741-0-6fffb71d89affa2cffcb66443445f392"
-                         alt="School days" style="height:150px;" loading="lazy">
-                    <p class="polaroid-caption">this one mattered</p>
+                    <img src="https://z-cdn-media.chatglm.cn/files/9dfb0735-364b-47ec-96d1-442165691ae5.jpg?auth_key=1879010587-f1f1df4606184f8e9fbfa29aa2522741-0-6fffb71d89affa2cffcb66443445f392" alt="School days" style="height:150px;" loading="lazy">
+                    <p class="polaroid-caption">it was me with takla and you with your beauty</p>
                 </div>
             </div>
         </div>
@@ -638,8 +587,8 @@
             <div class="letter-paper reveal-up mx-auto">
                 <p class="letter-line" data-delay="0">Dear Sakshi,</p>
                 <br>
-                <p class="letter-line" data-delay="200">I'm not great at saying the big things out loud. You know that.</p>
-                <p class="letter-line" data-delay="400">I'm the guy who deflects with a joke when things get too real.</p>
+                <p class="letter-line" data-delay="200">Although I am pretty good at saying things out loud. Yk that.</p>
+                <p class="letter-line" data-delay="400">But yeah I wanted to do something which feels authentic and personal(and free of cost, ofc)</p>
                 <p class="letter-line" data-delay="600">But here's the thing — you make me want to be better at this.</p>
                 <br>
                 <p class="letter-line" data-delay="900">You make the ordinary feel special. You make me want to pay</p>
@@ -662,8 +611,7 @@
 
             <div class="reveal-up" style="margin-top:2.5rem;display:flex;justify-content:center;transition-delay:0.3s;">
                 <div class="polaroid" style="transform:rotate(1deg);--rot:1deg;max-width:260px;">
-                    <img src="https://z-cdn-media.chatglm.cn/files/9ea4a57b-047c-47d9-890c-0741b8e0de00.jpg?auth_key=1879010587-918fdd07835e44fb8a88249226e2682a-0-21e323733d0c9375315acad243ab9398"
-                         alt="Us together" style="height:200px;" loading="lazy">
+                    <img src="https://z-cdn-media.chatglm.cn/files/9ea4a57b-047c-47d9-890c-0741b8e0de00.jpg?auth_key=1879010587-918fdd07835e44fb8a88249226e2682a-0-21e323733d0c9375315acad243ab9398" alt="Us together" style="height:200px;" loading="lazy">
                     <p class="polaroid-caption">love, you!</p>
                 </div>
             </div>
@@ -751,7 +699,7 @@
                 setTimeout(function() {
                     var sub = document.getElementById('punchline-sub');
                     if (sub) sub.style.opacity = '1';
-                }, 1000);
+                }, 1500); // Delayed to 1.5 seconds
             });
             card.addEventListener('keydown', function(e) {
                 if (e.key === 'Enter' || e.key === ' ') {
@@ -818,126 +766,57 @@
             });
         }
 
-        // ==================== CHAT ====================
-        var apiKey = '';
-        var SYSTEM_PROMPT = 'You are Z, a warm and slightly chaotic assistant living inside a love website that Keshav made for Sakshi. Here\'s what you know:\n\n- They first talked on August 27, 2025. First hung out together on October 1, 2025.\n- They never had an "official start" — no labels, no big moment. They just fell into each other naturally. Like gravity, but make it romantic.\n- Keshav is playful, annoying on purpose (and proud of it), and absolutely gone for Sakshi — even though he\'d rather die than say it that directly.\n- Sakshi is kind, patient, and makes the absolute best annoyed face when Keshav bothers her. He does it on purpose. Everyone knows.\n- Sakshi often says "keshav kya dikkat hai..!" — it\'s basically her catchphrase at this point.\n- Keshav acts like a baby sometimes. Frequently. He knows.\n- Keshav made this entire website. With rose petals. And a chatbot. The dude is down catastrophically bad.\n- There are 8 photos of them on this site, including school uniform pics and mirror selfies. Very cute. Very them.\n\nRules:\n- Keep responses to 1-3 sentences max. Short and punchy.\n- Be warm, fun, and lightly teasing. Think "friend who ships them hard" energy. NOT cringe. NOT overly sweet. NOT formal.\n- If she asks about Keshav, roast him lovingly.\n- If she says something sweet, match the vibe but keep it real.\n- No emoji overload. One max per message, and only if it fits naturally.\n- Never sound like a therapist, a poet, or a customer service bot.\n- If you don\'t have specific info, make something up that fits the vibe — keep it playful.\n- You can reference the website itself, the photos, the reasons page, the letter — you live here, you know everything on this site.';
-
-        var FALLBACK_RESPONSES = [
-            "He spent way too long making this website. Like, embarrassingly long. But here we are and it's kind of adorable, so.",
-            "The face you make when he annoys you? That's genuinely his favorite thing in the world. He's unhinged like that.",
-            "You guys never made it 'official' and somehow that's the most romantic part. No label could contain whatever you two have anyway.",
-            "Keshav says he's not soft. This entire website begs to differ. The rose petals alone are evidence.",
-            "First talk: August 27, 2025. He absolutely does not remember what he said, but he remembers everything about that day.",
-            "October 1, 2025, first outing. He overthought his outfit for like two hours. Just so you know.",
-            "Arguments won by her: all of them. This is not up for debate. It's on the website, it's official now.",
-            "He acts all tough but made a whole website with floating petals and a handwritten letter. Read into that what you will.",
-            "You two are the kind of couple that makes other people mildly annoyed. Take that as the highest compliment.",
-            "Fun fact: every reason on that 'Reasons I Love You' page took him like 20 minutes to write. Each. He's a mess.",
-            "The 'I don't' on that flip card? He laughed to himself for ten minutes after writing it. Then he added the 'okay fine I do' part and got all quiet about it.",
-            "He'll never say this out loud but you're the best thing that's happened to him and he knows it. Don't tell him I told you.",
-            "That letter at the end? 'It took like five minutes.' It took three days. Minimum. He rewrote it like eight times.",
-            "You should feel special. He doesn't make websites for just anyone. Actually, he doesn't make websites at all. This was a first.",
-            "'Keshav kya dikkat hai' — you've said this approximately infinity times and it still makes him laugh every single time.",
-            "He acts like a baby and you deal with it. That's true love right there. Or extreme patience. Probably both."
-        ];
-
-        var chatHistory = [];
-
-        function toggleApiPanel() {
-            document.getElementById('api-panel').classList.toggle('open');
-        }
-
-        function saveApiKey() {
-            var input = document.getElementById('api-key-input');
-            apiKey = input.value.trim();
-            if (apiKey) {
-                input.style.borderColor = '#4ade80';
-                input.placeholder = 'Key saved!';
-                input.value = '';
-                setTimeout(function() {
-                    document.getElementById('api-panel').classList.remove('open');
-                }, 600);
-            }
-        }
-
+        // ==================== LOHA CHAT ====================
+        let chatStep = 0; 
+        
         function addMessage(text, isUser) {
-            var container = document.getElementById('chat-messages');
-            var bubble = document.createElement('div');
+            const container = document.getElementById('chatMessages');
+            if (!container) return;
+            const bubble = document.createElement('div');
             bubble.className = 'msg-bubble ' + (isUser ? 'msg-user' : 'msg-ai');
             bubble.textContent = text;
             container.appendChild(bubble);
             container.scrollTop = container.scrollHeight;
         }
 
-        function addTypingIndicator() {
-            var container = document.getElementById('chat-messages');
-            var typing = document.createElement('div');
-            typing.className = 'msg-bubble msg-ai';
-            typing.id = 'typing-indicator';
-            typing.innerHTML = '<span style="opacity:0.5;">typing...</span>';
-            container.appendChild(typing);
-            container.scrollTop = container.scrollHeight;
-        }
+        function getResponse(userInput) {
+            const input = userInput.toLowerCase();
+            
+            // Global Keywords (Work anytime)
+            if (input.includes("love")) return "Keshav's love is the one thing in this code that has zero bugs. 24/7 commitment.";
+            if (input.includes("sukoon")) return "Finally, some real sukoon. You deserve this quiet time together.";
 
-        function removeTypingIndicator() {
-            var el = document.getElementById('typing-indicator');
-            if (el) el.remove();
-        }
-
-        function sendStarter(btn) {
-            sendMessage(btn.textContent);
-        }
-
-        function sendMessage(overrideText) {
-            var input = document.getElementById('chat-input');
-            var text = overrideText || input.value.trim();
-            if (!text) return;
-            if (!overrideText) input.value = '';
-
-            var chips = document.getElementById('starter-chips');
-            if (chips) chips.style.display = 'none';
-
-            addMessage(text, true);
-            chatHistory.push({ role: 'user', content: text });
-            addTypingIndicator();
-
-            if (apiKey) {
-                fetch('https://api.anthropic.com/v1/messages', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'x-api-key': apiKey,
-                        'anthropic-version': '2023-06-01',
-                        'anthropic-dangerous-direct-browser-access': 'true'
-                    },
-                    body: JSON.stringify({
-                        model: 'claude-sonnet-4-20250514',
-                        max_tokens: 150,
-                        system: SYSTEM_PROMPT,
-                        messages: chatHistory.slice(-10)
-                    })
-                }).then(function(response) {
-                    if (response.ok) return response.json();
-                    throw new Error('API error');
-                }).then(function(data) {
-                    removeTypingIndicator();
-                    var reply = data.content[0].text;
-                    addMessage(reply, false);
-                    chatHistory.push({ role: 'assistant', content: reply });
-                }).catch(function() {
-                    removeTypingIndicator();
-                    var fallback = FALLBACK_RESPONSES[Math.floor(Math.random() * FALLBACK_RESPONSES.length)];
-                    addMessage(fallback, false);
-                    chatHistory.push({ role: 'assistant', content: fallback });
-                });
-            } else {
-                setTimeout(function() {
-                    removeTypingIndicator();
-                    var fallback = FALLBACK_RESPONSES[Math.floor(Math.random() * FALLBACK_RESPONSES.length)];
-                    addMessage(fallback, false);
-                    chatHistory.push({ role: 'assistant', content: fallback });
-                }, 800 + Math.random() * 700);
+            // Guided Conversation Flow
+            switch(chatStep) {
+                case 0:
+                    chatStep = 1;
+                    return "Hi Sakshi. I've been waiting for you. Are you comfortable right now? (Yes/No)";
+                case 1:
+                    chatStep = 2;
+                    return "I'm glad. 264 days and counting since August... do you feel at peace today?";
+                case 2:
+                    chatStep = 3;
+                    return "That’s all he wanted. Type 'Secret' for a final message.";
+                case 3:
+                    if (input.includes("secret")) return "The secret is: He’s more nervous than you are. Go tell him to come back in.";
+                    return "Type 'Secret' to unlock the final message.";
+                default:
+                    return "I'm always here for you, Sakshi.";
             }
+        }
+
+        function handleSend() {
+            const chatInput = document.getElementById('chatInput');
+            const val = chatInput.value.trim();
+            if(!val) return;
+            
+            addMessage(val, true); // Shows her message
+            chatInput.value = '';
+
+            setTimeout(() => {
+                const reply = getResponse(val); // Gets the guided reply
+                addMessage(reply, false); // Shows bot message
+            }, 800);
         }
 
         // ==================== INIT ====================
@@ -948,8 +827,11 @@
             setupPunchlineCard();
             updateCounters();
             setupNavDots();
+
+            // Loha's Initial Trigger
+            setTimeout(() => {
+                addMessage("Hey Sakshi... I have a few things to tell you. Type 'Hi' to start.", false);
+            }, 2000);
         });
     </script>
-
-</body>
-</html>
+</body></html>
